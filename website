@@ -88,7 +88,7 @@
 
         <div class="contact-form">
             <h2>Contact Us</h2>
-            <form action="mailto:info@yummyintimatecare.com" method="post" enctype="text/plain">
+            <form action="https://formspree.io/f/mayrvaea" method="post" enctype="text/plain">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" required><br>
                 <label for="email">Email:</label><br>
