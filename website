@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Intimate Care LLC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .header {
+            background-color: #ff66cc;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content {
+            margin-top: 20px;
+        }
+
+        .product {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+        }
+
+        .footer {
+            background-color: #ff66cc;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Welcome to Yummy Intimate Care LLC</h1>
+        <p>Your destination for feminine hygiene products</p>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h2>Our Products</h2>
+            <div class="product">
+                <h3>Organic Cotton Pads</h3>
+                <p>Our organic cotton pads are made with pure cotton and are free from chemicals, providing you with
+                    gentle protection during your period.</p>
+            </div>
+            <div class="product">
+                <h3>Biodegradable Tampons</h3>
+                <p>Our biodegradable tampons are environmentally friendly and made with natural materials, ensuring
+                    comfort and peace of mind.</p>
+            </div>
+            <div class="product">
+                <h3>Menstrual Cups</h3>
+                <p>Our menstrual cups offer a sustainable alternative to traditional period products, providing
+                    leak-free protection and lasting comfort.</p>
+            </div>
+            <div class="product">
+                <h3>Intimate Washes</h3>
+                <p>Our intimate washes are specially formulated to maintain pH balance and keep you feeling fresh and
+                    clean every day.</p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="mailto:info@yummyintimatecare.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Yummy Intimate Care LLC. All rights reserved.</p>
+    </div>
+</body>
+
+</html>
